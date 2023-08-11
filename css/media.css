@@ -1,0 +1,111 @@
+@media only screen and (max-width:1320px) {
+    .navbar .burger i {
+        display: block;
+        margin-right: 7px;
+    }
+
+    .rightNav {
+        flex-direction: column;
+        opacity: 0;
+    }
+
+
+    .navbar .nav-list {
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+    }
+
+    .navbar .nav-list li {
+        margin-top: 20px;
+    }
+
+    .navbar .nav-list li a {
+        font-size: 30px;
+    }
+
+
+    .menuToggle {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width:1120px) {
+    .form {
+        max-width: 700px;
+    }
+
+
+    .section {
+        height: 400px;
+        max-width: 85%;
+    }
+
+}
+
+@media only screen and (max-width:996px) {
+
+    .section {
+        flex-direction: column-reverse;
+        height: 700px;
+    }
+
+    .thumbail img {
+        margin-block: 65px;
+        width: 300px
+    }
+
+    .form {
+        max-width: 550px;
+    }
+
+    .contact {
+        margin-top: 40px;
+    }
+
+    .btn-dark {
+        width: 30%;
+    }
+}
+
+
+@media only screen and (max-width:844px) {
+
+    .thumbail img {
+        margin-block: 75px;
+        width: 230px
+    }
+
+    .form {
+        max-width: 370px;
+    }
+
+    .section {
+        max-width: 95%;
+    }
+
+    .text-footer {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width:640px) {
+
+
+    .form {
+        max-width: 250px;
+    }
+
+    .section {
+        max-width: 95%;
+        height: auto;
+    }
+
+    .text-footer {
+        font-size: 15px;
+    }
+}

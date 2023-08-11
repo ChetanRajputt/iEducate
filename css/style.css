@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    padding: 3px 10px;
+}
+
+.navbar .logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 33%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.navbar .nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-list li {
+    list-style: none;
+}
+
+.navbar .nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 26px 30px;
+    cursor: pointer;
+    transition: 0.5 ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .nav-list li a:hover {
+    color: gray;
+}
+
+.navbar .rightNav {
+    text-align: right;
+    width: 50%;
+    padding: 0 23px;
+}
+
+.navbar .rightNav input {
+    padding: 7px 12px;
+    font-size: 12px;
+    border: 2px solid #fef6f6;
+    border-radius: 4px;
+    margin-right: 6px;
+    background: no-repeat;
+    color: #f0f8ff;
+}
+
+.navbar .burger i {
+    color: #fff;
+    font-size: 22px;
+    display: none;
+    cursor: pointer;
+}
+
+
+.rightNav input::placeholder {
+    color: white;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('/images/back.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.firstSection .box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstSection .box-main .firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstSection .box-main .firstHalf .text-big {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+.firstSection .box-main .firstHalf .text-small {
+    font-family: 'Poppins', sans-serif;
+    padding: 6px;
+    font-size: 18px;
+}
+
+.firstSection .box-main .secondHalf {
+    width: 30%;
+}
+
+.firstSection .box-main .secondHalf img {
+    width: 70%;
+    border: 4px solid #fff;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+
+.btn:hover {
+    background-color: #ffff;
+    color: #000;
+    transform: rotate(2deg);
+}
+
+.btn-sm {
+    pad: 8px 10px;
+    vertical-align: middle;
+}
+
+.section {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.thumbail img {
+    width: 220px;
+    border: 2px solid black;
+    box-shadow: 10px 10xp 20px black;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0px 65px;
+}
+
+.sectionTag {
+    padding: 10px 0;
+    font-size: 32px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sectionSubTag {
+    padding: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact {
+    background-color: #f0f8ff;
+    height: 520px;
+}
+
+.text-center {
+    text-align: center;
+    padding-block: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+.btn-dark {
+    border: 2px solid gray;
+    color: #000;
+    width: 20%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.form {
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+.form-input {
+    margin: 10px 0;
+    padding: 2px 10px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
